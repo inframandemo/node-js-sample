@@ -1,7 +1,7 @@
 {
   "name": "node-js-sample",
   "version": "1.0.0",
-  "description": "A sample Node.js app using Express 4 and Pino",
+  "description": "External API Tracing Sample",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -9,21 +9,11 @@
   "dependencies": {
     "express": "^4.19.2",
     "pino": "^9.0.0",
-    "pino-http": "^10.0.0"
+    "pino-http": "^10.0.0",
+    "axios": "^1.6.0",
+    "@opentelemetry/api": "^1.8.0"
   },
   "engines": {
     "node": ">=18.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/heroku/node-js-sample"
-  },
-  "keywords": [
-    "node",
-    "express",
-    "pino",
-    "opentelemetry"
-  ],
-  "author": "User",
-  "license": "MIT"
+  }
 }
